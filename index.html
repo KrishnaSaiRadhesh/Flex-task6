@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Task6</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 2px solid;
+        }
+
+        .child1{
+            display: flex;
+            height: 10vh;
+            width: 10vh;
+            background-color: aqua;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 200px;
+        }
+
+        .child2{
+            display: flex;
+            height: 10vh;
+            width: 10vh;
+            background-color: red;
+            align-items: center;
+            justify-content: center;
+            flex: 2 0 300px;
+        }
+
+        .child3{
+            display: flex;
+            height: 10vh;
+            width: 10vh;
+            background-color: orange;
+            align-items: center;
+            justify-content: center;
+            flex: 3 2 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="child1">Child 1</div>
+        <div class="child2">Child 2</div>
+        <div class="child3">Child 3</div>
+      </div>
+</body>
+</html>
